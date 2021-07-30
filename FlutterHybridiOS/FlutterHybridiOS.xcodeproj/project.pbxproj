@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B07257724C6C63B009C17EC /* libPods-FlutterHybridiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B07257624C6C63B009C17EC /* libPods-FlutterHybridiOS.a */; };
+		9B6C3C2524C05A2E00DBF7D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C3C2424C05A2E00DBF7D4 /* AppDelegate.swift */; };
+		9B6C3C2924C05A2E00DBF7D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C3C2824C05A2E00DBF7D4 /* ViewController.swift */; };
+		9B6C3C2C24C05A2E00DBF7D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6C3C2A24C05A2E00DBF7D4 /* Main.storyboard */; };
+		9B6C3C2E24C05A2F00DBF7D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6C3C2D24C05A2F00DBF7D4 /* Assets.xcassets */; };
+		9B6C3C3124C05A2F00DBF7D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6C3C2F24C05A2F00DBF7D4 /* LaunchScreen.storyboard */; };
+		9B6C3C3A24C05B9200DBF7D4 /* PlatformRouterImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C3C3924C05B9200DBF7D4 /* PlatformRouterImp.swift */; };
+		AEDC80E93C824BB4D511BE90 /* libPods-FlutterHybridiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D39CDD979C1D0C3C4E31F32 /* libPods-FlutterHybridiOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		480DC15E021CA426D8CE75C1 /* Pods-FlutterHybridiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterHybridiOS.release.xcconfig"; path = "Target Support Files/Pods-FlutterHybridiOS/Pods-FlutterHybridiOS.release.xcconfig"; sourceTree = "<group>"; };
+		7D39CDD979C1D0C3C4E31F32 /* libPods-FlutterHybridiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlutterHybridiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B07257624C6C63B009C17EC /* libPods-FlutterHybridiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-FlutterHybridiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6C3C2124C05A2E00DBF7D4 /* FlutterHybridiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlutterHybridiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6C3C2424C05A2E00DBF7D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B6C3C2824C05A2E00DBF7D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B6C3C2B24C05A2E00DBF7D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B6C3C2D24C05A2F00DBF7D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B6C3C3024C05A2F00DBF7D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B6C3C3224C05A2F00DBF7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6C3C3824C05B9200DBF7D4 /* FlutterHybridiOS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FlutterHybridiOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		9B6C3C3924C05B9200DBF7D4 /* PlatformRouterImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformRouterImp.swift; sourceTree = "<group>"; };
+		D3079CE3CCC8753DE44822B6 /* Pods-FlutterHybridiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterHybridiOS.debug.xcconfig"; path = "Target Support Files/Pods-FlutterHybridiOS/Pods-FlutterHybridiOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B6C3C1E24C05A2E00DBF7D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B07257724C6C63B009C17EC /* libPods-FlutterHybridiOS.a in Frameworks */,
+				AEDC80E93C824BB4D511BE90 /* libPods-FlutterHybridiOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B6C3C1824C05A2E00DBF7D4 = {
+			isa = PBXGroup;
+			children = (
+				9B6C3C2324C05A2E00DBF7D4 /* FlutterHybridiOS */,
+				9B6C3C2224C05A2E00DBF7D4 /* Products */,
+				EB8A8C9FEB8F7918C400F951 /* Pods */,
+				B3E519DF9F36C7B0FDD449C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B6C3C2224C05A2E00DBF7D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6C3C2124C05A2E00DBF7D4 /* FlutterHybridiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B6C3C2324C05A2E00DBF7D4 /* FlutterHybridiOS */ = {
+			isa = PBXGroup;
+			children = (
+				9B6C3C2424C05A2E00DBF7D4 /* AppDelegate.swift */,
+				9B6C3C2824C05A2E00DBF7D4 /* ViewController.swift */,
+				9B6C3C2A24C05A2E00DBF7D4 /* Main.storyboard */,
+				9B6C3C3924C05B9200DBF7D4 /* PlatformRouterImp.swift */,
+				9B6C3C3824C05B9200DBF7D4 /* FlutterHybridiOS-Bridging-Header.h */,
+				9B6C3C2D24C05A2F00DBF7D4 /* Assets.xcassets */,
+				9B6C3C2F24C05A2F00DBF7D4 /* LaunchScreen.storyboard */,
+				9B6C3C3224C05A2F00DBF7D4 /* Info.plist */,
+			);
+			path = FlutterHybridiOS;
+			sourceTree = "<group>";
+		};
+		B3E519DF9F36C7B0FDD449C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B07257624C6C63B009C17EC /* libPods-FlutterHybridiOS.a */,
+				7D39CDD979C1D0C3C4E31F32 /* libPods-FlutterHybridiOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB8A8C9FEB8F7918C400F951 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3079CE3CCC8753DE44822B6 /* Pods-FlutterHybridiOS.debug.xcconfig */,
+				480DC15E021CA426D8CE75C1 /* Pods-FlutterHybridiOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B6C3C2024C05A2E00DBF7D4 /* FlutterHybridiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6C3C3524C05A2F00DBF7D4 /* Build configuration list for PBXNativeTarget "FlutterHybridiOS" */;
+			buildPhases = (
+				B47F069389E7ABBD1D62FACA /* [CP] Check Pods Manifest.lock */,
+				0403B60A3B81381FEFA0BBAC /* [CP-User] Run Flutter Build Script */,
+				9B6C3C1D24C05A2E00DBF7D4 /* Sources */,
+				9B6C3C1E24C05A2E00DBF7D4 /* Frameworks */,
+				9B6C3C1F24C05A2E00DBF7D4 /* Resources */,
+				B989232D2A94D69D82D78865 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlutterHybridiOS;
+			productName = FlutterHybridiOS;
+			productReference = 9B6C3C2124C05A2E00DBF7D4 /* FlutterHybridiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B6C3C1924C05A2E00DBF7D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = ShuXun;
+				TargetAttributes = {
+					9B6C3C2024C05A2E00DBF7D4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 9B6C3C1C24C05A2E00DBF7D4 /* Build configuration list for PBXProject "FlutterHybridiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B6C3C1824C05A2E00DBF7D4;
+			productRefGroup = 9B6C3C2224C05A2E00DBF7D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B6C3C2024C05A2E00DBF7D4 /* FlutterHybridiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B6C3C1F24C05A2E00DBF7D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6C3C3124C05A2F00DBF7D4 /* LaunchScreen.storyboard in Resources */,
+				9B6C3C2E24C05A2F00DBF7D4 /* Assets.xcassets in Resources */,
+				9B6C3C2C24C05A2E00DBF7D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0403B60A3B81381FEFA0BBAC /* [CP-User] Run Flutter Build Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../flutter_module/.metadata",
+				"${SRCROOT}/../flutter_module/.ios/Flutter/App.framework/App",
+				"${SRCROOT}/../flutter_module/.ios/Flutter/engine/Flutter.framework/Flutter",
+				"${SRCROOT}/../flutter_module/.ios/Flutter/flutter_export_environment.sh",
+			);
+			name = "[CP-User] Run Flutter Build Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_module/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build\n";
+		};
+		B47F069389E7ABBD1D62FACA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlutterHybridiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B989232D2A94D69D82D78865 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlutterHybridiOS/Pods-FlutterHybridiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlutterHybridiOS/Pods-FlutterHybridiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlutterHybridiOS/Pods-FlutterHybridiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B6C3C1D24C05A2E00DBF7D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6C3C2924C05A2E00DBF7D4 /* ViewController.swift in Sources */,
+				9B6C3C2524C05A2E00DBF7D4 /* AppDelegate.swift in Sources */,
+				9B6C3C3A24C05B9200DBF7D4 /* PlatformRouterImp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B6C3C2A24C05A2E00DBF7D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6C3C2B24C05A2E00DBF7D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B6C3C2F24C05A2F00DBF7D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6C3C3024C05A2F00DBF7D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B6C3C3324C05A2F00DBF7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B6C3C3424C05A2F00DBF7D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B6C3C3624C05A2F00DBF7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3079CE3CCC8753DE44822B6 /* Pods-FlutterHybridiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = N853NC26UQ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				INFOPLIST_FILE = FlutterHybridiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com299.ShuXun.SXAutoStreets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "SXAutostreets299-dev";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlutterHybridiOS/FlutterHybridiOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B6C3C3724C05A2F00DBF7D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480DC15E021CA426D8CE75C1 /* Pods-FlutterHybridiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = N853NC26UQ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				INFOPLIST_FILE = FlutterHybridiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com299.ShuXun.SXAutoStreets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SXAutoStreets299;
+				SWIFT_OBJC_BRIDGING_HEADER = "FlutterHybridiOS/FlutterHybridiOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B6C3C1C24C05A2E00DBF7D4 /* Build configuration list for PBXProject "FlutterHybridiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6C3C3324C05A2F00DBF7D4 /* Debug */,
+				9B6C3C3424C05A2F00DBF7D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6C3C3524C05A2F00DBF7D4 /* Build configuration list for PBXNativeTarget "FlutterHybridiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6C3C3624C05A2F00DBF7D4 /* Debug */,
+				9B6C3C3724C05A2F00DBF7D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B6C3C1924C05A2E00DBF7D4 /* Project object */;
+}
