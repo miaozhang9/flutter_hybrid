@@ -1,0 +1,61 @@
+PODS:
+  - connectivity (0.0.1):
+    - Flutter
+    - Reachability
+  - connectivity_for_web (0.1.0):
+    - Flutter
+  - connectivity_macos (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_boost (0.0.2):
+    - Flutter
+  - flutter_module (0.0.1):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - connectivity
+    - Flutter
+    - flutter_boost
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - connectivity (from `../flutter_module/.ios/Flutter/.symlinks/connectivity/ios`)
+  - connectivity_for_web (from `../flutter_module/.ios/Flutter/.symlinks/connectivity_for_web/ios`)
+  - connectivity_macos (from `../flutter_module/.ios/Flutter/.symlinks/connectivity_macos/ios`)
+  - Flutter (from `../flutter_module/.ios/Flutter/engine`)
+  - flutter_boost (from `../flutter_module/.ios/Flutter/.symlinks/flutter_boost/ios`)
+  - flutter_module (from `../flutter_module/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../flutter_module/.ios/Flutter/FlutterPluginRegistrant`)
+
+SPEC REPOS:
+  trunk:
+    - Reachability
+
+EXTERNAL SOURCES:
+  connectivity:
+    :path: "../flutter_module/.ios/Flutter/.symlinks/connectivity/ios"
+  connectivity_for_web:
+    :path: "../flutter_module/.ios/Flutter/.symlinks/connectivity_for_web/ios"
+  connectivity_macos:
+    :path: "../flutter_module/.ios/Flutter/.symlinks/connectivity_macos/ios"
+  Flutter:
+    :path: "../flutter_module/.ios/Flutter/engine"
+  flutter_boost:
+    :path: "../flutter_module/.ios/Flutter/.symlinks/flutter_boost/ios"
+  flutter_module:
+    :path: "../flutter_module/.ios/Flutter"
+  FlutterPluginRegistrant:
+    :path: "../flutter_module/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  connectivity: c4130b2985d4ef6fd26f9702e886bd5260681467
+  connectivity_for_web: 2b8584556930d4bd490d82b836bcf45067ce345b
+  connectivity_macos: e2e9731b6b22dda39eb1b128f6969d574460e191
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_boost: a7cfa776b75329d5e7d101d0cd33e75042bcde69
+  flutter_module: 37f078337caf8acad3074374a49bf81442fd3e07
+  FlutterPluginRegistrant: 3d87fc723f157a9dd16c28293fdbfc582aebea02
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: 431bf65ab1c450335d486c40d966382ff1589122
+
+COCOAPODS: 1.9.3
